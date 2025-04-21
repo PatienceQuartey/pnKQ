@@ -1,0 +1,640 @@
+html{
+    background-color: aliceblue;
+    
+    scroll-behavior: smooth;
+    width:99vw;
+}
+
+#nav-bar{
+    background-color: rgb(0, 128, 128, 50%) ;
+    height: 12vh;
+
+    width: 82vw;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-weight: bold;
+    font-size: 1rem;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+
+#Home-Page{
+    height: 100vh;
+    background-color: #000000;
+    border: 5px solid #000000
+}
+
+#My-Projects{
+    height: 100vh;
+    background-color: palegreen;
+    border: 5px solid rgb(18, 20, 18);
+}
+
+#About-Me{
+    height: 100vh;
+    background-color: palegreen;
+    border: 5px solid rgb(28, 30, 34);
+}
+
+#Contact-Me{
+    height: 100vh;
+    background-color: palegreen;
+    border: 5px solid rgb(23, 21, 20);
+}
+
+footer{
+    height: 50vh;
+    background-color: rgb(62, 69, 62);
+    color: aliceblue;
+    border: 5px solid rgb(11, 11, 10);
+}
+
+
+
+#the-logo{height: 8rem;}
+
+#nav-links{
+    display: flex;
+    list-style: none;  
+}
+
+#nav-shortcut, .nav-dropdown-menu{
+  display: none;
+}
+
+.menu-list{
+    text-align: center;
+    margin: 5rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+  .font_type_1{
+    font-family: "Fascinate Inline", system-ui;
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+  }
+
+  .intro-font{
+    padding-top: 10rem;
+  }
+
+  .font_type_2{
+    color: ivory;
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .font_type_3{
+    font-family: "Fascinate Inline", system-ui;
+    text-align: center;
+    font-size: 5rem;
+    color: black;
+    padding-top: 2rem
+  }
+
+  #website-name{
+    font-weight: bolder;
+    color: navy;
+    font-style: italic;
+    font-size: 1.3rem;
+  }
+
+  .centered-intro{color: #000000;}
+
+  #intro-paragragph{
+    text-align: justify;
+    border: 5px solid white;
+    height: 400px;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .centered-intro{
+    text-align: center;
+  }
+
+  .intro-text{
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: "Funnel Display", sans-serif;
+  }
+
+  #center-comms{text-align: center;}
+
+  #connect-with-me{
+    text-align: justify;
+    /*border: 5px solid white;*/
+    height: 150px;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#brand-logo{
+  text-align: center;
+  font-size: 10px;
+}
+
+.fa-brands, .fa-solid{
+  font-size: 100px;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+
+#portfolio-grid{
+  /*border: 10px solid sandybrown; */
+  width:80vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#portfolio-resume-grid{
+  /*border: 10px solid seagreen;*/
+  width:25vw;
+  height:5vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#resume-link{
+  color: blue;
+}
+
+#resume-link:hover{
+  background-color: blue;
+  color: white;
+  text-decoration: underline;
+
+
+}
+
+.grid-color{
+  /*border: 10px solid red;*/
+  width: 25vw;
+}
+
+#project-text{
+  font-family: "Funnel Display", sans-serif;
+  text-align: center;
+
+}
+
+#image-sizing{
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  margin-left: 60px;
+  /*border: 10px solid black;*/
+
+}
+
+#footer-email{
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+#footer-italics{
+  font-family: "Funnel Display", sans-serif;
+  font-style: italic;
+}
+
+.footer-text{
+  font-family: "Funnel Display", sans-serif;
+  text-align: justify;
+}
+
+.address-text{
+  font-family: "Funnel Display", sans-serif
+}
+
+.footer-split{
+  /*border: 10px solid salmon;*/
+  width: 90vw;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+
+}
+
+.socials-sec{
+  /*border: 10px solid white;*/
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  text-align: end;
+}
+
+.address-sec{
+  /*border: 10px solid white;*/
+  width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+
+}
+
+#footer-web-links{
+  font-size: 2.5rem
+}
+
+#cwm-links{
+  color: #000000;
+}
+
+
+
+
+
+
+@media (max-width:480px) {
+  /*#Home-Page{background-color: red;}*/
+
+  #nav-bar{width: 30vw;}
+
+  #nav-shortcut:checked ~ #nav-links{right: 0;}
+
+  #nav-links{
+    background-color: teal;
+    display: block;
+    position: fixed;
+    top: 60px;
+    right: -110%;
+    width: 100%;
+    height: 100% ;
+    transition: all, 0.5s ease-in-out;
+  }
+
+  .nav-dropdown-menu{
+    display: block;
+    order: 1;
+  }
+
+  html{width:98vw}
+
+
+  .font_type_1{font-size: 2rem;}
+
+  .font_type_2{
+    color: ivory;
+    font-family: monospace;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    height: 90px;
+  }
+
+  .font_type_3{font-size: 4rem;}
+
+  #My-Projects{height: 240vh;}
+
+  #portfolio-grid{
+    display:grid;
+    width:80vw;
+    height: 150vh;
+  }
+
+  .grid-color{
+    width:50vw;
+    height:45vh 
+  }
+  
+
+  #image-sizing{
+    width: 40vw;
+    height: 30vh;
+    object-fit: contain;
+    margin-left: 10px;
+    border: 10px solid purple;
+  }
+
+  #portfolio-resume-grid{
+    border: 10px solid seagreen;
+    width:70vw;
+    height:65vw;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .intro-text{
+    padding-left: 40px;
+    padding-right: 40px;
+
+  }
+
+
+  #About-Me{height: 250vh;}
+
+  #intro-paragragph{
+    width:80vw;
+    height: 175vh;
+    padding-top: 10px;
+    position: relative;
+    top:20px
+  }
+
+  #Contact-Me{height: 190vh;}
+
+  #connect-with-me{
+    width:80vw;
+    height: 45vh;
+  }
+
+  .fa-brands, .fa-solid{
+    font-size: 60px;
+    margin-left: 80px;
+    margin-top: 15px;
+
+
+  }
+
+  footer{height: 100vh;}
+  
+  .footer-split{height: 80vh;}
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+  /*#Home-Page{background-color: yellowgreen;}*/
+  
+  #nav-bar{width: 66vw;}
+
+  #nav-shortcut:checked ~ #nav-links{right: 0;}
+
+  #nav-links{
+    background-color: teal;
+    display: block;
+    position: fixed;
+    top: 60px;
+    right: -110%;
+    width: 100%;
+    height: 100% ;
+    transition: all, 0.5s ease-in-out;
+  }
+
+  .nav-dropdown-menu{
+    display: block;
+    order: 1;
+  }
+
+  html{width:98vw}
+
+
+  .font_type_1{font-size: 2rem;}
+
+  .font_type_2{
+    color: ivory;
+    font-family: monospace;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    height: 90px;
+  }
+
+  .font_type_3{font-size: 4rem;}
+
+  #My-Projects{height: 240vh;}
+
+  #portfolio-grid{
+    display:grid;
+    width:80vw;
+    height: 150vh;
+  }
+
+  .grid-color{
+    width:50vw;
+    height:45vh 
+  }
+  
+
+  #image-sizing{
+    width: 40vw;
+    height: 30vh;
+    object-fit: contain;
+    margin-left: 10px;
+    border: 10px solid purple;
+  }
+
+  #portfolio-resume-grid{
+    border: 10px solid seagreen;
+    width:70vw;
+    height:35vw;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .intro-text{
+    padding-left: 40px;
+    padding-right: 40px;
+
+  }
+
+
+  #About-Me{height: 250vh;}
+
+  #intro-paragragph{
+    width:90vw;
+    height: 168vh;
+  }
+
+  #Contact-Me{height: 160vh;}
+
+  #connect-with-me{width:90vw;}
+
+  .fa-brands, .fa-solid{
+    font-size: 68px;
+    margin-left: 80px;
+    margin-top: 15px;
+
+
+  }
+
+  footer{height: 100vh;}
+  
+  .footer-split{height: 80vh;}
+
+
+
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+  /*#Home-Page{background-color: blue;}*/
+
+  #nav-bar{width: 66vw;}
+
+  #nav-shortcut:checked ~ #nav-links{right: 0;}
+
+  #nav-links{
+    background-color: teal;
+    display: block;
+    position: fixed;
+    top: 60px;
+    right: -110%;
+    width: 100%;
+    height: 100% ;
+    transition: all, 0.5s ease-in-out;
+  }
+
+  .nav-dropdown-menu{
+    display: block;
+    order: 1;
+  }
+
+  html{width:98vw}
+
+
+  .font_type_1{font-size: 2rem;}
+
+  .font_type_2{
+    color: ivory;
+    font-family: monospace;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    height: 90px;
+  }
+
+  .font_type_3{font-size: 4rem;}
+
+  #My-Projects{height: 230vh;}
+
+  #portfolio-grid{
+    display:grid;
+    width:80vw;
+    height: 150vh;
+  }
+
+  .grid-color{
+    width:50vw;
+    height:45vh 
+  }
+  
+
+  #image-sizing{
+    width: 40vw;
+    height: 30vh;
+    object-fit: contain;
+    margin-left: 10px;
+    border: 10px solid purple;
+  }
+
+  #portfolio-resume-grid{
+    border: 10px solid seagreen;
+    width:60vw;
+    height:15vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #About-Me{height: 180vh;}
+
+  #intro-paragragph{
+    width:90vw;
+    height: 100vh;
+  }
+
+  #Contact-Me{height: 150vh;}
+
+  #connect-with-me{width:90vw;}
+
+  .fa-brands, .fa-solid{
+    font-size: 68px;
+    margin-left: 150px;
+    margin-top: 15px;
+  }
+
+  footer{height: 100vh;}
+
+  .footer-split{height: 80vh;}
+
+}
+
+
+@media (min-width:1025px) and (max-width:1200px) {
+
+  html{width:98vw}
+
+  /*#Home-Page{background-color: chocolate;}*/
+
+  #nav-bar{width: 69vw;}
+
+  .font_type_1{font-size: 2rem;}
+
+  .font_type_2{
+    color: ivory;
+    font-family: monospace;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
+    height: 90px;
+  }
+  .font_type_3{font-size: 4rem;}
+
+  #My-Projects{
+    height: 230vh;
+  }
+
+  #portfolio-grid{
+    display:grid;
+    width:80vw;
+    height: 150vh;
+  }
+
+  .grid-color{
+    width:50vw;
+    height:45vh 
+  }
+  
+
+  #image-sizing{
+    width: 40vw;
+    height: 30vh;
+    object-fit: contain;
+    margin-left: 60px;
+    border: 10px solid purple;
+  }
+
+  #portfolio-resume-grid{
+    border: 10px solid seagreen;
+    width:50vw;
+    height:10vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #About-Me{height: 180vh;}
+
+  #Contact-Me{height: 150vh;}
+
+
+  footer{
+    height: 100vh;
+  }
+
+  .footer-split{height: 80vh;}
+
+}
+
