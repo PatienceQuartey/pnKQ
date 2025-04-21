@@ -323,11 +323,11 @@ a{
     height: 30vh;
     object-fit: contain;
     margin-left: 10px;
-    border: 10px solid purple;
+    /*border: 10px solid purple;*/
   }
 
   #portfolio-resume-grid{
-    border: 10px solid seagreen;
+    /*border: 10px solid seagreen;*/
     width:70vw;
     height:65vw;
     margin-left: auto;
@@ -432,11 +432,11 @@ a{
     height: 30vh;
     object-fit: contain;
     margin-left: 10px;
-    border: 10px solid purple;
+    /*border: 10px solid purple;*/
   }
 
   #portfolio-resume-grid{
-    border: 10px solid seagreen;
+    /*border: 10px solid seagreen;*/
     width:70vw;
     height:35vw;
     margin-left: auto;
@@ -537,11 +537,11 @@ a{
     height: 30vh;
     object-fit: contain;
     margin-left: 10px;
-    border: 10px solid purple;
+    /*border: 10px solid purple;*/
   }
 
   #portfolio-resume-grid{
-    border: 10px solid seagreen;
+    /*border: 10px solid seagreen;*/
     width:60vw;
     height:15vw;
     margin-left: auto;
@@ -614,11 +614,11 @@ a{
     height: 30vh;
     object-fit: contain;
     margin-left: 60px;
-    border: 10px solid purple;
+    /*border: 10px solid purple;*/
   }
 
   #portfolio-resume-grid{
-    border: 10px solid seagreen;
+    /*border: 10px solid seagreen;*/
     width:50vw;
     height:10vw;
     margin-left: auto;
@@ -637,4 +637,3 @@ a{
   .footer-split{height: 80vh;}
 
 }
-
