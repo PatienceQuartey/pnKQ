@@ -29,13 +29,13 @@ html{
 }
 
 #My-Projects{
-    height: 100vh;
+    height: 120vh;
     background-color: palegreen;
     border: 5px solid rgb(18, 20, 18);
 }
 
 #About-Me{
-    height: 100vh;
+    height: 120vh;
     background-color: palegreen;
     border: 5px solid rgb(28, 30, 34);
 }
@@ -47,7 +47,7 @@ html{
 }
 
 footer{
-    height: 50vh;
+    height: 60vh;
     background-color: rgb(62, 69, 62);
     color: aliceblue;
     border: 5px solid rgb(11, 11, 10);
@@ -594,7 +594,7 @@ a{
   .font_type_3{font-size: 4rem;}
 
   #My-Projects{
-    height: 250vh;
+    height: 230vh;
   }
 
   #portfolio-grid{
@@ -637,3 +637,4 @@ a{
   .footer-split{height: 80vh;}
 
 }
+
