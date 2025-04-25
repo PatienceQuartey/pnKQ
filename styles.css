@@ -41,7 +41,7 @@ html{
 }
 
 #Contact-Me{
-    height: 100vh;
+    height: 150vh;
     background-color: palegreen;
     border: 5px solid rgb(23, 21, 20);
 }
@@ -257,6 +257,15 @@ a{
 
 #cwm-links{
   color: #000000;
+}
+
+#pph-hireme{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 10px solid salmon;*/
+  width:30vw;
+  height: 20vh;
 }
 
 
